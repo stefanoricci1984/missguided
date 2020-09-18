@@ -1,0 +1,190 @@
+{
+	"info": {
+		"_postman_id": "3cfd9a71-ea02-4f0f-be4c-cde227f2733b",
+		"name": "MissguidedTests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://missguided.poq.io/products/filter/76?categoryId=216046&externalId=216046",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://missguided.poq.io/products/filter/76?categoryId=216046&externalId=216046",
+					"protocol": "https",
+					"host": [
+						"missguided",
+						"poq",
+						"io"
+					],
+					"path": [
+						"products",
+						"filter",
+						"76"
+					],
+					"query": [
+						{
+							"key": "categoryId",
+							"value": "216046"
+						},
+						{
+							"key": "externalId",
+							"value": "216046"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://missguided.poq.io/roducts/filter/76?categoryId=216046&externalId=216046",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://missguided.poq.io/roducts/filter/76?categoryId=216046&externalId=216046",
+					"protocol": "https",
+					"host": [
+						"missguided",
+						"poq",
+						"io"
+					],
+					"path": [
+						"roducts",
+						"filter",
+						"76"
+					],
+					"query": [
+						{
+							"key": "categoryId",
+							"value": "216046"
+						},
+						{
+							"key": "externalId",
+							"value": "216046"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://missguided.poq.io/account/login/76/F929FFBA-E071-4360-8397-621614722AA8",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"username\": \"stefanoricci222@gmail.com\",\r\n\t\"isMasterCard\": false,\r\n\t\"password\": \"12345678\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://missguided.poq.io/account/login/76/F929FFBA-E071-4360-8397-621614722AA8",
+					"protocol": "https",
+					"host": [
+						"missguided",
+						"poq",
+						"io"
+					],
+					"path": [
+						"account",
+						"login",
+						"76",
+						"F929FFBA-E071-4360-8397-621614722AA8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://missguided.poq.io/account/login/76/F929FFBA-E071-4360-8397-621614722AA8",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"username\": \"stefanoricci222@gmail.com\",\r\n\t\"isMasterCard\": false,\r\n\t\"password\": \"12345678AAAAAA\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://missguided.poq.io/account/login/76/F929FFBA-E071-4360-8397-621614722AA8",
+					"protocol": "https",
+					"host": [
+						"missguided",
+						"poq",
+						"io"
+					],
+					"path": [
+						"account",
+						"login",
+						"76",
+						"F929FFBA-E071-4360-8397-621614722AA8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://missguided.poq.io/account/login/76/F929FFBA-E071-4360-8397-621614722AA8",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"username\": \"stefanoricci222@gmail.com\",\r\n\t\"isMasterCard\": false,\r\n\t\"password\": \"12345678AAAAAA\"\r\n"
+				},
+				"url": {
+					"raw": "https://missguided.poq.io/account/login/76/F929FFBA-E071-4360-8397-621614722AA8",
+					"protocol": "https",
+					"host": [
+						"missguided",
+						"poq",
+						"io"
+					],
+					"path": [
+						"account",
+						"login",
+						"76",
+						"F929FFBA-E071-4360-8397-621614722AA8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://missguided.poq.io/wishlist/76/F929FFBA-E071-4360-8397-621614722AA8",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://missguided.poq.io/wishlist/76/F929FFBA-E071-4360-8397-621614722AA8",
+					"protocol": "https",
+					"host": [
+						"missguided",
+						"poq",
+						"io"
+					],
+					"path": [
+						"wishlist",
+						"76",
+						"F929FFBA-E071-4360-8397-621614722AA8"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
